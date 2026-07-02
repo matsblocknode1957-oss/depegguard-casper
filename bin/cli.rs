@@ -16,7 +16,7 @@ impl DeployScript for SignalLoggerDeployScript {
         env: &HostEnv,
         container: &mut DeployedContractsContainer,
     ) -> Result<(), odra_cli::deploy::Error> {
-        let contract = SignalLogger::load_or_deploy(env, NoArgs, container, 500_000_000_000)?;
+        let contract = SignalLogger::load_or_deploy(env, NoArgs, container, 50_000_000_000)?;
         eprintln!("✅ Contract address: {:?}", contract.address());
         Ok(())
     }
