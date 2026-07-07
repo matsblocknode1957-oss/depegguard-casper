@@ -6,3 +6,7 @@ Cargo.lock
 .builder*
 /wasm
 .env
+
+# keys
+*.pem
+secret_key.pem
