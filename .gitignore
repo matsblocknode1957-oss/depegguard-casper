@@ -1,0 +1,8 @@
+/target
+Cargo.lock
+*.pem
+secret_key.pem
+.env
+.idea
+.vscode
+/wasm
